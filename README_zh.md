@@ -8,11 +8,7 @@
 
 **删除了原仓库中的百度统计相关代码，让仓库更干净。**
 
-[README](README.md) | [中文文档](README_zh.md)
-
-## 预览  
-
-MFY.GD: [https://mfy.gd/](https://mfy.gd/) 
+[README](README.md) | [中文文档](README_zh.md) 
 
 ## 特色
 
