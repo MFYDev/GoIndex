@@ -6,7 +6,7 @@
 
 这个主题的goindex目前是基于 [Achrou/goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou)
 
-**刪除了原仓库中的百度统计相关代码，让仓库更干净。**
+**删除了原仓库中的百度统计相关代码，让仓库更干净。**
 
 [README](README.md) | [中文文档](README_zh.md)
 
