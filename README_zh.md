@@ -1,4 +1,4 @@
-# GoIndex-theme-acrou
+# GoIndex
 
 结合 [Cloudflare Workers](https://workers.cloudflare.com/) 和 [Google Drive](https://www.google.com/drive/) 的力量，你可以在Cloudflare Workers的浏览器上建立你的文件索引。
 
