@@ -9,10 +9,6 @@ This theme's goindex is currently based on [Achrou/goindex-theme-acrou](https://
 
 [README](README.md) | [中文文档](README_zh.md)
 
-## Demo  
-
-MFY.GD: [https://mfy.gd/](https://mfy.gd/) 
-
 ## Features
 
 - [x] 👑 Page-level caching,browser forward and backward without reloading (MAC users have a better experience with the trackpad)
