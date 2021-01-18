@@ -3,15 +3,17 @@
 # GoIndex-theme-acrou 
 Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and [Google Drive](https://www.google.com/drive/) will allow you to index you files on the browser on Cloudflare Workers.    
 
-[go2index/index.js](https://github.com/Aicirou/goindex-theme-acrou/go2index) is the content of the Workers script.  
+[go2index/index.js](https://github.com/MFYDev/GoIndex/go2index) is the content of the Workers script.  
 
-This theme's goindex is currently based on [yanzai/goindex](https://github.com/yanzai/goindex/)
+This theme's goindex is currently based on [Achrou/goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou)
+
+**Deleted Baidu Analytics related code, make it cleaner than before**
 
 [README](README.md) | [中文文档](README_zh.md)
 
 ## Demo  
 
-Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/) 
+MFY.GD: [https://mfy.gd/](https://mfy.gd/) 
 
 ## Features
 
@@ -36,7 +38,6 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 
 1. Open any of the following links
 
-   - https://install.achirou.workers.dev
    - https://goindex-quick-install.glitch.me
    - https://goindex-install.herokuapp.com
 
@@ -112,61 +113,6 @@ audio: {
   ]
 }
 ```
-
-
-
-## Change log
-
-### v2.0.8
-
-- Fix image file actions does not work [#100](https://github.com/Aicirou/goindex-theme-acrou/issues/100)
-- Fix misjudged file to image format [#88](https://github.com/Aicirou/goindex-theme-acrou/issues/88)
-- Fix more than 10 drive not working [#59](https://github.com/Aicirou/goindex-theme-acrou/issues/59) [#85](https://github.com/Aicirou/goindex-theme-acrou/issues/85)
-- Fix some of the operation functions in the search list cannot be used
-- Fix text cache content not refreshing
-- Add video default player([plyr](https://github.com/sampotts/plyr)) [#22](https://github.com/Aicirou/goindex-theme-acrou/issues/22) [#38](https://github.com/Aicirou/goindex-theme-acrou/issues/38)
-- Add audio player ([APlayer](https://github.com/MoePlayer/APlayer)) [#77](https://github.com/Aicirou/goindex-theme-acrou/issues/77)
-- Add copy button to video page
-- Add [NProgress](https://github.com/rstacruz/nprogress)
-- Add language cache cleanup
-- Add shortcut can't download tip [#76](https://github.com/Aicirou/goindex-theme-acrou/issues/76)
-- Markdown displays rendered html by default
-- CLI Delete prefetch preload of lazy load module
-- Delete fontawesome5
-
-### v2.0.5
-
-- Add clean file cache
-- Support for custom video player (API)
-- Beautify: the grid mode file shows icon when no preview is shown
-- Beautify: Adjust the HEAD.md render position
-- Solve the problem that files that can't be previewed can't be downloaded directly by clicking [#30](https://github.com/Aicirou/goindex-theme-acrou/issues/30)
-- Solve the problem that the file name cannot be opened [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20)
-- Solve the problem that switching pages will fall back in the current page loading [#37](https://github.com/Aicirou/goindex-theme-acrou/issues/37) (Thanks [@PedroZhang](https://github.com/PedroZhang) Help to find out the cause of the problem)
-
-### v2.0.0
-
-- Program changed to SPA(single page application)
-- Add page level cache(Browser forward and backward do not refresh seconds to load, and Mac users have a better experience of using touch pad)
-- Add http basic auth(Each drive letter can be configured with a user name and password separately, which can protect all sub files and sub folders under the drive)
-- Add  grid view mode(File preview)
-- Add paging load
-- Add  i18n
-- Add html render 
-- Add render folder/file description
-- Add optional configuration
-- Support quick deployment
-- Support PDF Online preview
-- Replace text editor
-- Solve the problem of URL encoding [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20) [#23](https://github.com/Aicirou/goindex-theme-acrou/issues/23) [#25](https://github.com/Aicirou/goindex-theme-acrou/issues/25)
-- Solve other known problems
-
-### v1.x
-
-- Support multi disk switching
-- Add version detection
-- Optimize search results
-- Optimize page display
 
 ## Lisense
 
