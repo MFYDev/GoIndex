@@ -46,7 +46,7 @@
 2. 创建一个 [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
 3. 本地安装[rclone](https://rclone.org/downloads/)
 4. 使用`rclone`获取`refresh_token`
-5. 下载`index.js` (https://github.com/Aicirou/goindex-theme-acrou/tree/master/go2index) 然后替换`client_id`,`client_secret`,`refresh_token` 为你刚刚获取到的
+5. 下载`index.js` (https://github.com/MFYDev/GoIndex/tree/master/go2index) 然后替换`client_id`,`client_secret`,`refresh_token` 为你刚刚获取到的
 6. 把代码部署到[Cloudflare Workers](https://www.cloudflare.com/)
 
 > 如果你写了一篇不错的文章，想分享给大家，请提交Issues，我会把链接贴在这里。

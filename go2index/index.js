@@ -1,6 +1,6 @@
 // =======Options START=======
 var authConfig = {
-  siteName: "GoIndex-theme-acrou", // 网站名称
+  siteName: "GoIndex", // 网站名称
   version: "1.1.2", // 程序版本
   theme: "acrou",
   // 强烈推荐使用自己的 client_id 和 client_secret
@@ -65,9 +65,9 @@ var authConfig = {
 };
 
 var themeOptions = {
-  cdn: "https://cdn.jsdelivr.net/gh/Aicirou/goindex-theme-acrou",
+  cdn: "https://cdn.jsdelivr.net/gh/MFYDev/GoIndex",
   // 主题版本号
-  version: "2.0.8",
+  version: "master",
   //可选默认系统语言:en/zh-chs/zh-cht
   languages: "en",
   render: {

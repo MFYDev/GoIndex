@@ -45,7 +45,7 @@ This theme's goindex is currently based on [Achrou/goindex-theme-acrou](https://
 2. Create a [OAuth client ID](https://console.developers.google.com/apis/credentials/oauthclient)
 3. Install [rclone](https://rclone.org/downloads/) software locally
 4. Get `refresh_token ` with `rclone`
-5. Download `index.js` in https://github.com/Aicirou/goindex-theme-acrou/tree/master/go2index and replace `client_id`,`client_secret`,`refresh_token` for what you just got.
+5. Download `index.js` in https://github.com/MFYDev/GoIndex/tree/master/go2index and replace `client_id`,`client_secret`,`refresh_token` for what you just got.
 6. Deploy the code to [Cloudflare Workers](https://www.cloudflare.com/)
 
 > If you write a good article and want to share it with others, please submit Issues and I will post the link here.
