@@ -2,15 +2,17 @@
 
 结合 [Cloudflare Workers](https://workers.cloudflare.com/) 和 [Google Drive](https://www.google.com/drive/) 的力量，你可以在Cloudflare Workers的浏览器上建立你的文件索引。
 
-[go2index/index.js](https://github.com/Aicirou/goindex-theme-acrou/go2index) 是Workers脚本的内容。
+[go2index/index.js](https://github.com/MFYDev/GoIndex/go2index) 是Workers脚本的内容。
 
-这个主题的goindex目前是基于 [yanzai/goindex](https://github.com/yanzai/goindex/)
+这个主题的goindex目前是基于 [Achrou/goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou)
+
+**刪除了原仓库中的百度统计相关代码，让仓库更干净。**
 
 [README](README.md) | [中文文档](README_zh.md)
 
 ## 预览  
 
-Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/) 
+MFY.GD: [https://mfy.gd/](https://mfy.gd/) 
 
 ## 特色
 
@@ -35,7 +37,6 @@ Acrou: [https://oss.achirou.workers.dev/](https://oss.achirou.workers.dev/)
 
 1. 打开以下任意网址（哪个快用哪个） 
 
-   - https://install.achirou.workers.dev
    - https://goindex-quick-install.glitch.me
    - https://goindex-install.herokuapp.com
 
@@ -110,60 +111,6 @@ audio: {
   ]
 }
 ```
-
-## 更新日志
-
-### v2.0.8
-
-- 修复图片文件操作列不可用问题 [#100](https://github.com/Aicirou/goindex-theme-acrou/issues/100)
-- 修复错误判断图片问题 [#88](https://github.com/Aicirou/goindex-theme-acrou/issues/88)
-- 修复无法设置10个以上的drive [#59](https://github.com/Aicirou/goindex-theme-acrou/issues/59) [#85](https://github.com/Aicirou/goindex-theme-acrou/issues/85)
-- 修复搜索结果中的某些操作无法使用
-- 修复修改内容后缓存不刷新
-- 添加默认视频播放器 ([plyr](https://github.com/sampotts/plyr)) [#22](https://github.com/Aicirou/goindex-theme-acrou/issues/22) [#38](https://github.com/Aicirou/goindex-theme-acrou/issues/38)
-- 添加音频播放器 ([APlayer](https://github.com/MoePlayer/APlayer)) [#77](https://github.com/Aicirou/goindex-theme-acrou/issues/77)
-- 视频页面添加复制按钮
-- 添加 [NProgress](https://github.com/rstacruz/nprogress)
-- 添加语言缓存清理
-- 添加快捷方式无法下载提示 [#76](https://github.com/Aicirou/goindex-theme-acrou/issues/76)
-- Markdown默认显示渲染的html
-- CLI删除懒加载模块的预加载
-- 删除fontawesome5
-
-### v2.0.5
-
-- 添加清理文件缓存
-- 支持自定义视频播放器（API）
-- 美化：网格模式文件无预览图时显示图标
-- 美化：调整HEAD.md渲染位置
-- 解决搜索不能预览的文件点击无法直接下载 [#30](https://github.com/Aicirou/goindex-theme-acrou/issues/30)
-- 解决文件名中有#无法打开的问题 [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20)
-- 解决当前页面加载中切换页面会回退的问题 [#37](https://github.com/Aicirou/goindex-theme-acrou/issues/37) (感谢[@PedroZhang](https://github.com/PedroZhang)帮忙找出的问题原因)
-
-### v2.0.0
-
-- 程序改为单页应用
-
-- 添加页面级缓存（浏览器前进后退不刷新秒加载，mac用户使用触控板体验更佳）
-- 添加 http basic auth（每个盘符可单独配置用户名和密码，可以保护该盘下所有子文件和子文件夹）
-- 添加网格视图模式（文件预览）
-- 添加分页加载
-- 添加 i18n多国语言
-- 添加 html渲染
-- 添加 渲染文件夹/文件的描述 （用途自行挖掘）
-- 添加可选配置
-- 支持快速部署（帮助小白的利器）
-- 支持PDF在线预览
-- 更换文本编辑器
-- 解决url编码问题 [#20](https://github.com/Aicirou/goindex-theme-acrou/issues/20) [#23](https://github.com/Aicirou/goindex-theme-acrou/issues/23) [#25](https://github.com/Aicirou/goindex-theme-acrou/issues/25)
-- 解决其他已知问题
-
-### v1.x
-
-- 支持多盘切换
-- 添加版本检测
-- 优化搜索结果
-- 优化页面显示
 
 ## Lisense
 
