@@ -5,7 +5,7 @@ Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and
 
 This theme's goindex is currently based on [Achrou/goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou)
 
-**Deleted Baidu Analytics related code, make it cleaner than before**
+**Removed Baidu Analytics related codes, make it cleaner than before**
 
 [README](README.md) | [中文文档](README_zh.md)
 
