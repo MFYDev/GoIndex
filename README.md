@@ -32,8 +32,8 @@ This theme's goindex is currently based on [Achrou/goindex-theme-acrou](https://
 
 1. Open any of the following links
 
-   - https://goindex-quick-install.glitch.me
-   - https://goindex-install.herokuapp.com
+   - https://goindex-mfydev-install.glitch.me
+   - https://goindex-mfydev-install.herokuapp.com
 
 2. Auth and get the code  
 
